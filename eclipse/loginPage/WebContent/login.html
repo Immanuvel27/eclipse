@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Event Management</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<style>
+</style>
+
+<body>
+	<div class="container">
+		<!-- <h3> <span style="color:#FF0000">Hall</span>
+			<span style="color:#66CC66">booking</span>
+			<span style="color:#FF9966">and</span>
+			<span style="color:#FFCCCC">event</span>
+			<span style="color:#FF0066">management</span>
+		</h3> -->
+		<h3>Hall Booking and event management</h3>
+		<form name="RegForm">
+			
+			<div>
+				<tr><td>
+				<label>Username :</label></td>
+				<td>
+				<input autocomplete="off" type="text" placeholder="Enter the username" id="uname" required="required" onchange="login()"><br />
+				</td>
+			</div>
+			<p id="nameerr" style="text-align:center;font-size: 14px;color:#FF0000;"></p>
+			<div>
+				<label>Password :</label>
+				<input autocomplete="off" type="password" placeholder="Enter the password" id="pass" required="required"><br />
+				<p id="passerr" style="font-size: 14px;color:#FF0000;"></p>
+			</div>
+			
+			<button type="submit" id="submit" style="margin-top:3%">SUBMIT</button>
+		</form>
+	</div><br>
+
+	<script src="script.js"></script> 
+	<!-- <script src="log.js"></script> -->
+	</table>
+</body>
+
+</html>

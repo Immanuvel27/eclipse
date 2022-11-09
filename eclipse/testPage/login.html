@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Form required Attribute | With message validation</title>
+</head>
+
+<body>
+
+	<body style="text-align:center;">
+
+		<h1 style="color:green">GeeksforGeeks</h1>
+
+		<p>Enter a number and click the button:</p>
+
+		<input id="gfg" type="number" min="101" max="999" required>
+		<p id="geeks" style="color:red"></p>
+		<input id="sfg" type="text" required>
+		<p id="ggg" style="color:red"></p>
+		<button onclick="myFunction()">Try it</button>
+
+		<p>An message will display of ERROR, if the number
+		is lesser than 101 or greater than 999</p>
+		
+		
+		<script>
+			function myFunction() {
+				var inpObj = document.getElementById("gfg");
+				var i2 = document.getElementById("sfg").value;
+				if (!inpObj.checkValidity()) {
+					document.getElementById("geeks")
+							.innerHTML = inpObj.validationMessage;
+				}else if (inpObj.checkValidity()) {
+					document.getElementById("geeks")
+							.innerHTML = '';
+				}else if(i2.length<6){
+					document.getElementById("ggg")
+							.innerHTML = "not valid";
+				}
+				else if(i2.length>6){
+					document.getElementById("ggg")
+							.innerHTML = "";
+				}  
+			}
+		</script>
+
+	</body>
+
+</html>

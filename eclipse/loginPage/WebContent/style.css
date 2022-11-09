@@ -1,0 +1,73 @@
+body{
+    /* background-image:url("https://www.wondericon.com/images/intro-background-dark.png"); */
+    background-image: url("./images/1.jpg");
+    /* background-image:url("https://wallpapercave.com/wp/wp7488412.jpg"); */
+    background-repeat: no-repeat;
+     background-size: cover;
+     /* background:#000 */
+     
+     
+}
+
+.container{ 
+   margin-left:10%;
+   margin-right:10%;
+   width:80%;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 30px;
+    color:#FEDD76;
+    float: left;
+    padding-right: 50px;
+   
+}
+.container h3{
+    margin-top: 10%;
+    color:#FFCCCC;
+    text-transform: uppercase;
+    background: rgb(0,0,0,0.4);
+    font-family:Verdana,sans-serif;
+    
+}
+form {
+    background: rgb(0,0,0,0.3);
+    padding:5%;  
+}
+
+form input {
+    width: 50%;
+    height: 25px;
+    
+    /* margin-top:7%; */
+    
+    
+}
+form input :focus{
+    border:0;
+    box-shadow: none;
+}
+form label{ 
+    color:#ccf2ff;
+	font-weight:900;
+	font-size:30px;
+    text-transform: uppercase;
+}
+
+form #submit{
+    width:30%;
+    font-weight: 900;
+    font-size:22px;
+    background-color:#ccf2ff;
+    border:none;
+    border-radius:10px;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+}
+form #submit:hover{
+    background-color:#66CC66;
+    color:#000;
+}
+
+  
+
+

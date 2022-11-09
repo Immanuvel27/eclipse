@@ -1,0 +1,31 @@
+
+body{
+    
+    background-image:url("https://wallpapercave.com/wp/wp7488412.jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+     /* background:#000 */
+     
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin:5px;
+    padding: 10px;
+    background-color: antiquewhite;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+
+  .row{
+    display:flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+  }
+  .column:hover{
+    background-color:#FFDAB9 ;
+    color:#000;
+}
